@@ -14,6 +14,4 @@ Edit in contact-form-process.php
 $email_to = "recipient@example.de";
 $email = 'sender@example.de';
 ```
-Edit text at the End of index.html
-
 Change the images as needed
