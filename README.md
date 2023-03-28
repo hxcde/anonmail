@@ -1,5 +1,6 @@
 # anonmail
-Anonyme Email Server to internal Email
+### Anonyme Email Server to internal Email
+I built this project to be able to send anonymous emails to the works council within the company.
 ```bash
 git clone https://github.com/hxcde/anonmail.git
 ```
