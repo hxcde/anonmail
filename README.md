@@ -1,4 +1,4 @@
-# anonmail
+# Anonmail
 <img src="https://raw.githubusercontent.com/hxcde/anonmail/main/logo1.png" width="70" />
 
 ### Send anonymous emails inside company
