@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['Message'])) {
 
-    $email_to = "email@example.de";
+    $email_to = "recipient@example.de";
     $email_subject = "Contact form";
 
     function problem($error)
@@ -20,7 +20,7 @@ if (isset($_POST['Message'])) {
     }
 
     $name = $_POST['Name'];
-    $email = 'email@example.de';
+    $email = 'sender@example.de';
     $message = $_POST['Message'];
 
     $error_message = "";
