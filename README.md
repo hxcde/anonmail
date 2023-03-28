@@ -5,9 +5,9 @@
 - I built this project to be able to send anonymous emails to the works council within the company.
 - The emails go from an anonymous email address to a predefined one.
 ### How to set it up?
-- You need PHP and Apache installed (example for Ubuntu or Debian based)
+- You need GIt, PHP and Apache installed (example for Ubuntu or Debian based)
 ```bash
-apt-get install php apache2 -y
+apt-get install git php apache2 -y
 ```
 - Clone the repository
 ```bash
