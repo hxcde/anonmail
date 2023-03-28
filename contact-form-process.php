@@ -2,11 +2,11 @@
 if (isset($_POST['Message'])) {
 
     $email_to = "email@example.de";
-    $email_subject = "Anonymes Kontaktformular";
+    $email_subject = "Contact form";
 
     function problem($error)
     {
-        echo "Es gibt ein Problem mit deiner Eingabe:<br><br> ";
+        echo "There is a problem with your input:<br><br> ";
         echo $error . "<br><br>";
         echo "<br><br>";
         die();
@@ -16,7 +16,7 @@ if (isset($_POST['Message'])) {
         !isset($_POST['Name']) ||
         !isset($_POST['Message'])
     ) {
-        problem('Es gibt ein Problem mit deiner Eingabe:');
+        problem('There is a problem with your input:');
     }
 
     $name = $_POST['Name'];
@@ -33,11 +33,11 @@ if (isset($_POST['Message'])) {
     $string_exp = "/^[A-Za-z .'-]+$/";
 
     if (!preg_match($string_exp, $name)) {
-        $error_message .= 'Das eingetragene Anliegen scheint nicht g&uuml;ltig zu sein!<br>';
+        $error_message .= 'The registered concern does not seem to be valid!<br>';
     }
 
     if (strlen($message) < 2) {
-        $error_message .= 'Die eingetragene Nachricht scheint nicht g&uuml;ltig zu sein!<br>';
+        $error_message .= 'The registered message does not seem to be valid!<br>';
     }
 
     if (strlen($error_message) > 0) {
@@ -52,8 +52,8 @@ if (isset($_POST['Message'])) {
         return str_replace($bad, "", $string);
     }
 
-    $email_message .= "Anliegen: " . clean_string($name) . "\n";
-    $email_message .= "Nachricht: " . clean_string($message) . "\n";
+    $email_message .= "Concerns: " . clean_string($name) . "\n";
+    $email_message .= "Message: " . clean_string($message) . "\n";
 
     // email header
     $headers = 'From: ' . $email . "\r\n" .
@@ -62,7 +62,7 @@ if (isset($_POST['Message'])) {
     @mail($email_to, $email_subject, $email_message, $headers);
 ?>
 
-    Deine Nachricht wurde versendet!
+    Your message has been sent!
 
 <?php
 }
