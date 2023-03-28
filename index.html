@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Kontaktformular</title>
+</head>
+
+<body>
+
+<link href="contact-form.css" rel="stylesheet">
+
+<div class="fcf-body">
+
+<img src="logo.png" alt="Logo" style="width:330px" /img>
+<img src="adaclogo.png" alt="Logo" style="width:60px" align="right" img>
+
+    <div id="fcf-form">
+    <h2 class="fcf-h3">Kontaktformular</h2>
+ </br>
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Anliegen / Thema</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Deine Nachricht</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button  type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Nachricht senden</button>
+        </div>
+
+        <div class="fcf-credit" id="fcf-credit">
+        Anonymes Kontaktformular
+        </div>
+
+    </form>
+    </div>
+
+       <div class="fcf-credit" id="fcf-credit">
+
+
+Informationen zum Kontaktformular:
+</br>
+Der Inhalt dieser Nachricht wird anonymisiert und verschl&uuml;sselt an das Postfach "email@example.de" &uuml;bertragen.
+</br>
+Es werden zu keinem Zeitpunkt Telemetriedaten erhoben oder gespeichert, die einen Bezug zum Ersteller bzw. Absender herstellen lassen.
+</br>
+        </div>
+
+</div>
+
+</body>
+</html>
