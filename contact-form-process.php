@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['Message'])) {
 
-    $email_to = "betriebsrat@heliservice.adac.de";
+    $email_to = "email@example.de";
     $email_subject = "Anonymes Kontaktformular";
 
     function problem($error)
@@ -20,7 +20,7 @@ if (isset($_POST['Message'])) {
     }
 
     $name = $_POST['Name'];
-    $email = 'anonym@heliservice.adac.de';
+    $email = 'email@example.de';
     $message = $_POST['Message'];
 
     $error_message = "";
