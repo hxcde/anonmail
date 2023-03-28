@@ -5,8 +5,13 @@
 ### How to set it up?
 - You need PHP and Apache installed
 ```bash
+apt install php apache2
+```
+- Clone the repository
+```bash
 git clone https://github.com/hxcde/anonmail.git
 ```
+Move the files to webroot
 ```bash
 mv anonmail/* /var/www/html/
 ```
