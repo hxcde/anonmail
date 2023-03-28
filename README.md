@@ -7,7 +7,7 @@
 ### How to set it up?
 - You need GIt, PHP and Apache installed (example for Ubuntu or Debian based)
 ```bash
-apt-get update && apt-get install git php apache2 -y
+apt-get update && apt-get install git php php-mail apache2 -y
 ```
 - Clone the repository
 ```bash
