@@ -8,5 +8,7 @@ Apache:
 mv anonmail/* /var/www/html/
 ```
 Edit
+```bash
 $email_to = "email@example.de";
 $email_subject = "Anonymes Kontaktformular";
+```
