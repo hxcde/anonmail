@@ -8,6 +8,7 @@
 - You need GIt, PHP and Apache installed (example for Ubuntu or Debian based)
 ```bash
 apt-get update && apt-get install git php php-mail apache2 -y
+systemctl enable apache2 && systemctl start apache2
 ```
 - Clone the repository
 ```bash
