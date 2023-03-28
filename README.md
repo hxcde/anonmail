@@ -1,5 +1,6 @@
 # anonmail
 <img src="https://raw.githubusercontent.com/hxcde/anonmail/main/logo1.png" width="70" />
+
 ### Send anonymous emails inside company
 - I built this project to be able to send anonymous emails to the works council within the company.
 - The emails go from an anonymous email address to a predefined one.
