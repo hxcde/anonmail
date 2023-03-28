@@ -11,9 +11,9 @@ mv anonmail/* /var/www/html/
 ```
 Edit in contact-form-process.php
 ```bash
-$email_to = "email@example.de";
+$email_to = "recipient@example.de";
 $email_subject = "Anonymes Kontaktformular";
-$email = 'email@example.de';
+$email = 'sender@example.de';
 ```
 Edit text at the End of index.html
 
