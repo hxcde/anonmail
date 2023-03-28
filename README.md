@@ -14,4 +14,5 @@ $email_subject = "Anonymes Kontaktformular";
 $email = 'email@example.de';
 ```
 Edit text at the End of index.html
+
 Change the images as needed
