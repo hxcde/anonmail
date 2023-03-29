@@ -24,3 +24,4 @@ $email_to = "recipient@example.de";
 $email = 'sender@example.de';
 ```
 Change the images as needed
+![website](https://user-images.githubusercontent.com/30338980/228526710-b8f19c39-f3e7-41c7-9354-630b1bea1f86.png)
