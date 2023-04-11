@@ -29,5 +29,3 @@ $email_to = "recipient@example.de";
 $email = 'sender@example.de';
 ```
 Change the images as needed
-
-
