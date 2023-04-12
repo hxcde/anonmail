@@ -17,7 +17,7 @@ systemctl enable apache2 && systemctl start apache2
 ```
 - Clone the repository
 ```bash
-git clone https://github.com/hxcde/anonmail.git
+git clone https://git.moelle.space/hxcde/anonmail.git
 ```
 Move the files to webroot
 ```bash
